@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/fontawesome-free-6.6.0-web/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="Main" download>
+        <!-- <a href="CV.pdf" download="CV.pdf" class="btn btn--download"><button>Download CV</button></a> -->
+        <div id="ResumesContainer">
+        <div class="Resume" id="Resume1">
+            <h3>MA'LUMOTNOMA</h3>
+            <h3 id="IsmSharif">Yo'ldosheva Madina Salim qizi </h3>
+            <div id="YourPhoto">
+                <img id="circleImage" src="" alt="Uploaded Image" />
+            </div>
+            
+            <div id="AboutMe">
+                <p id="MenHaqimda">2022-yil 5-sentabrdan Mirzo Ulug'bek nomidagi O'zbekiston Milliy Universiteti Jizzax filiali talabsi.</p>
+            </div>
+            <div id="ShortInformations">
+                <ul id="FirstLine">
+                    <li><h4>Tug'ilgan yili:</h4>
+                    <p id="TugilganYili">20.06.2004</p></li>
+                    <li><h4>Millati:</h4>
+                    <p id='Millati'>O'zbek</p></li>
+                    <li>
+                        <h4>Ma'lumoti:</h4>
+                        <p id="Malumoti">O'rta</p>
+                    </li>
+                    <li><h4>Ilmiy darajasi:</h4>
+                    <p id="IlmiyDaraja">Yo'q </p></li>
+                    <li><h4>Qaysi chet tillarini biladi:</h4>
+                    <p id="QaysiTil">Ingliz tili </p></li>
+                    
+                </ul>
+                <ul id="SecondLine">
+                    <li>
+                        <h4>Tug'ilgan joyi:</h4>
+                        <p id="TugilganJoy">Baxmal</p>
+                    </li>
+                    <li>
+                        <h4>Partiyaviyligi:</h4>
+                        <p id="Partiyaviyligi">Yo'q</p>
+                    </li>
+                    <li><h4>Tamomlagan:</h4>
+                    <p id="Tamomlagan">2022-yil Baxmal tumani 81-MIDUM</p></li>
+                    <li>
+                        <h4>Ilmiy unvoni:</h4>
+                        <p id="IlmiyUnvon">Yo'q</p>
+                    </li>
+
+                </ul>
+                <div id="Mukofotlar">
+                    <h4>Davlat  mukofotlari bilan taqdirlanganmi(qanaqa):</h4>
+                    <p id="DavlatMuofotlari">Yo'q</p>
+
+                    <h4>Xalq deputatlari, respublika, viloyat, shahar va tuman Kengashi deputatimi yoki boshqa saylanadigan organlarning a’zosimi (to‘liq ko‘rsatilishi lozim):		</h4>
+                    <p id="Deputatlar">Yo'q</p>
+                </div>
+            </div>
+        </div>
+        <div class="Resume" id="Resume2">
+            <div class="DisplayTable">
+                <h3 style="padding: 30px 0px;">Qarindoshlari haqida</h3>
+            <table id="JadvalResume">
+                <tbody id="TableBody">
+                    <tr>
+                        <th>Qarindoshligi</th>
+                        <th>Familiyasi, ismi va otasining ismi</th>
+                        <th>Tug'ilgan yili va joyi</th>
+                        <th>Ish joyi va lavozimi</th>
+                        <th>Turar joyi</th>
+                    </tr>
+                    <tr>
+                        <td class="qarindosh"></td>
+                        <td class="Ism"></td>
+                        <td class="TugilganJoyi"></td>
+                        <td class="Lavozim"></td>
+                        <td class="TurarJoy"></td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+
+        <!-- <button id="Download"><a href="CV.pdf" download  class="btn btn--download">Download CV</a></button> -->
+    
+    </div>
+    
+    </section>
+    <aside id="Making">
+        <div id="Box">
+            <div id="uploadImage"><i class="fa-solid fa-upload"></i>
+                <h3>Add a photo</h3>
+            </div>
+            <input type="file" id="fileInput" style="display: none;" accept="image/*" />
+            <div class="item"><label for="metier">Name and surname</label>
+                <div class="item-settings empty"></div>
+               
+                <input type="text" id="NameSurnameInput" name="field_metier">
+            </div>
+            <div class="item"><label for="metier">Date of birth</label>
+                <div class="item-settings empty"></div>
+           
+                <input type="date" id="BirthInput" name="field_metier">
+            </div>
+            <div class="item"><label for="metier">Personal address</label>
+                <div class="item-settings empty"></div>
+          
+                <input type="text" id="PersonalInput" name="field_metier">
+            </div>
+            <div class="item"><label for="metier">Nationality</label>
+                <div class="item-settings empty"></div>
+        
+                <input type="text" id="NationlatyInput" name="field_metier">
+            </div>
+            <div class="item"><label for="metier">Place and date of graduation</label>
+                <div class="item-settings empty"></div>
+               
+                <input type="text" id="GraduationInput" name="field_metier">
+            </div>
+            <div class="item"><label for="metier">Party member</label>
+                <div class="item-settings empty"></div>
+                <input type="text" id="PartyInput" name="field_metier">
+            </div>
+            <div class="item"><label for="metier">Educational information</label>
+                <div class="item-settings empty"></div>
+                <input type="text" id="EducationalInput" name="field_metier">
+            </div>
+            <div class="item" id="item"><label for="metier">Academic degree</label>
+                <div class="item-settings empty"></div>
+                <input type="text" id="AcademicInput" name="field_metier">
+            </div>
+            <div class="item"><label for="metier">Academic title</label>
+                <div class="item-settings empty"></div>
+                <input type="text" id="TitleInput" name="field_metier">
+            </div>
+            <div class="item"><label for="metier">Languages</label>
+                <div class="item-settings empty"></div>
+                <input type="text" id="LanguageInput" name="field_metier">
+            </div>
+            <div class="item"><label for="metier">State awards</label>
+                <div class="item-settings empty"></div>
+                <input type="text" id="StateInput" name="field_metier">
+            </div>
+            <div class="item"><label for="metier">Educational information</label>
+                <div class="item-settings empty"></div>
+                <input type="text" id="EduInfoInput" name="field_metier">
+            </div>
+            <div class="item"><label for="metier">Being a member of elected bodies</label>
+                <div class="item-settings empty"></div>
+                <input type="text" id="ElectedBodiesInput" name="field_metier">
+            </div>
+            <div class="item"><label for="metier">About me</label>
+                <div class="item-settings empty"></div>
+                
+                <textarea name="" id="TextInput"></textarea>
+            </div>
+        </div>
+
+        <div class="Table">
+            <h3>Qarindoshlari haqida</h3>
+            <table class="Jadval">
+                <tbody id="JadvalBody">
+                    <tr>
+                        <th>Qarindoshligi</th>
+                        <th>Familiyasi, ismi va otasining ismi</th>
+                        <th>Tug'ilgan yili va joyi</th>
+                        <th>Ish joyi va lavozimi</th>
+                        <th>Turar joyi</th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="InputQarindosh"></td>
+                        <td><input type="text" class="InputIsm"></td>
+                        <td><input type="text" class="InputTugilganJoy"></td>
+                        <td><input type="text" class="InputLavozim"></td>
+                        <td><input type="text" class="InputTurarJoy"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button id="Add">Add</button>
+            <button id="DeleteLastTable">Delete Last</button>
+            <button id="Transmission">Transmission</button>
+            
+        <button id="ClickMe">Bos</button>
+        </div>
+        <button id="download">Download PDF</button>
+    </aside>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+        integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+        <!-- <script src="html2pdf.bundle.min.js"></script> -->
+    <!-- <div id="element-to-print">
+        salom
+    </div> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
